@@ -1,0 +1,41 @@
+body{
+    background-image: url('download.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+body{
+margin: 0px;
+padding: 0px;
+}
+.main{
+    width: 500px;
+    height: 300px;
+    background-color: #558191;
+    opacity: 0.7;
+    margin: 10px auto;
+}
+.input{
+   padding: 2%;
+   width: 95%;
+   height: 50px;
+   font-size: 25px;
+   color: rgb(10, 242, 29);
+ 
+
+}
+.num{
+    margin-top:15px ;
+}
+.btn{
+    width: 21%;
+    margin: 1%;
+    color: rgb(11, 86, 102);
+    font-size: 25px;
+    
+    
+}
+.zero{
+    width: 96%;
+    font-size: 20px;
+}
