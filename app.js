@@ -6,8 +6,15 @@ function number(num){
 
 function result(){
     var result = document.getElementById("input");
-    result.value = eval(result.value);
+   if(result.value ==""){
+result.value=''
+   }else{
+       result.value=eval(result.value)
+   }
 }
 function clearinput(){
 document.getElementById("input").value=""
+}
+function delet(){
+    document.getElementById("input").value=document.getElementById("input").value.toString().slice(0,-1);
 }
