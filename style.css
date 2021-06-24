@@ -1,5 +1,5 @@
 body{
-    background-image: url('download.png');
+    background-image: url('pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -20,7 +20,7 @@ padding: 0px;
    width: 95%;
    height: 50px;
    font-size: 25px;
-   color: rgb(10, 242, 29);
+   color: rgb(242, 10, 10);
  
 
 }
